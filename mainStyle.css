@@ -1,0 +1,49 @@
+body{
+    background: grey;
+}
+.clock{
+    background: transparent;
+    color: black;
+    margin-top: 200px;
+    margin-right: 600px;
+    margin-left: 550px;
+    border: 20px solid rgb(0, 44, 56);
+    border-radius: 50px;
+    padding: 20px;
+}
+/* Heading */
+.head{
+    font-size: 80px;
+    color: rgb(0, 33, 33);
+    text-decoration: underline;
+    -webkit-text-decoration-color: rgb(28, 26, 26);
+    text-decoration-color: rgb(14, 14, 14);
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style: wavy;
+    margin-bottom: 20px;
+    
+}
+.display{
+    font-size: 80px;
+}
+
+/* Button */
+.buttons{
+    
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 14px 24px 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    background: transparent;
+    color: #14343b;
+    box-shadow: 0 0 0 3px #000000 inset;
+    :hover{
+        background-color: black;
+    }
+    
+}
